@@ -25,3 +25,11 @@ print(otra_palabra[::-1])
 palabra = "sorbete"
 
 print(palabra==palabra[::-1]) 
+
+numero = 255
+
+mi_palabra = "jocote"
+
+print(mi_palabra)
+mi_palabra_mayuscula = mi_palabra.upper()
+print(mi_palabra_mayuscula)
