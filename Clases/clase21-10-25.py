@@ -9,7 +9,7 @@ son_iguales = num1 == num2
 print(son_iguales)"""
 
 
-#Listas
+#Listasprint
 
 datos = [1,2,"tres", ["lunes","martes","miercoles"]]
 #print(datos[2][1])
