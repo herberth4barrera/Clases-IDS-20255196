@@ -22,4 +22,12 @@ else:
     print("Tipo de impuesto no reconocido")
 print(f"El tipo {tipo} con monto {monto:,.2f}")
 print(f"paga un impuesto de {impuesto*monto:.2f}")
+
+
+#Parte 2
+
+nombres = ["Ana", "Luis", "Jose"]
+
+for i in nombres:
+    print("Hola")
         
