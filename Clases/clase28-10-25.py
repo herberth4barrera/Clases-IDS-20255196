@@ -22,7 +22,7 @@ for i in dias[3]:
     print(i)"""
     
 
-valores = [[1,3,6], [2,7,4], [6,5,9], [1,10,20]]
+"""valores = [[1,3,6], [2,7,4], [6,5,9], [1,10,20]]
 mayores = []
 
 for i in valores:
@@ -30,4 +30,21 @@ for i in valores:
         if x > 6:
             mayores.append(x)
             
-print(mayores)
+print(mayores)"""
+
+"""limite = 8
+inicio = 0
+
+while inicio < limite:
+    print(inicio)
+    inicio = inicio + 1"""
+    
+presupuesto = 10000
+gasto = 0
+
+while gasto < presupuesto:
+    compra = float(input("Monto a comprar: "))
+    gasto += compra 
+gasto -= compra
+print("Haz llegado al limite de tu presupuesto")
+print(f"El monto gastado es de {gasto:,.2f}")
