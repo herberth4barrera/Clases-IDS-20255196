@@ -16,4 +16,4 @@ for i in combos:
 y = 0
 for i in daño:
     print(daño[y])
-y+=1
+    y+=1
