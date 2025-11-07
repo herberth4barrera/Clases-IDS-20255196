@@ -28,5 +28,3 @@ def dui_validacion(dui_a_validar):
         cantidad_condicion += 1
     print(f"cumple {cantidad_condicion} condiciones")
     return cantidad_condicion
-
-
