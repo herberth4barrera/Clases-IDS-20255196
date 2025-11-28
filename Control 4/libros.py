@@ -12,8 +12,6 @@ def mostrar_libros(lista_libros):
         return
     print("\n--- Catálogo de Libros ---")
     print(f"{'Código':<10} | {'Título':<30} | {'Autor':<25} | {'Estado'}")
-    print("-" * 75)
     for libro in lista_libros:
         estado = "Disponible" if libro["disponible"] else "Prestado"
         print(f"{libro['codigo']:<10} | {libro['nombre']:<30} | {libro['autor']:<25} | {estado}")
-    print("-" * 75)

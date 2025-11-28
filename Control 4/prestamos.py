@@ -32,7 +32,5 @@ def mostrar_prestamos(lista_prestamos):
         return
     print("\n--- Préstamos Registrados ---")
     print(f"{'Carnet Estudiante':<20} | {'Código Libro':<15} | {'Fecha Préstamo'}")
-    print("-" * 60)
     for prestamo in lista_prestamos:
         print(f"{prestamo['carnet_estudiante']:<20} | {prestamo['codigo_libro']:<15} | {prestamo['fecha']}")
-    print("-" * 60)

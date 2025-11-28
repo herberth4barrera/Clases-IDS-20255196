@@ -11,7 +11,5 @@ def mostrar_estudiantes(lista_estudiantes):
         return
     print("\n--- Lista de Estudiantes ---")
     print(f"{'Carnet':<10} | {'Nombre'}")
-    print("-" * 40)
     for estudiante in lista_estudiantes:
         print(f"{estudiante['codigo']:<10} | {estudiante['nombre']}")
-    print("-" * 40)
